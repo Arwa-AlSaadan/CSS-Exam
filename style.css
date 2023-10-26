@@ -1,0 +1,146 @@
+
+
+nav{
+    background-color: rgb(27, 27, 27);
+    height: 10vh;
+}
+
+
+.nav-content{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    /* border: red solid; */
+}
+
+.div-list{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    /* border: blue solid; */
+}
+
+
+.list-item{
+    display: flex;
+    justify-content:end;
+    width: 20vw;
+    /* border: gold solid; */
+}
+
+.space{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: gold solid; */
+    width: 200px;
+}
+
+/* end nav */
+
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.section1-content{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* border: green solid; */
+    width: 100vw;
+    height: 80vh;
+}
+
+
+.text-div{
+    /* align-items: center;
+    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: gold solid; */
+    width: 60vw;
+    height: 50vh;
+}
+
+
+.text-flex{
+    
+    /* border: gold solid; */
+    width: 30vw;
+
+}
+
+button{
+    background-color: rgb(51, 51, 226);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+
+
+.squares-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: gold solid; */
+    width: 40vw;
+    
+}
+
+.square-1{
+   background-color: purple;
+   width: 300px;
+   height: 200px; 
+   position: relative;
+}
+
+.square-2{
+background-color: rgb(145, 145, 231);
+   width: 150px;
+   height: 100px; 
+   position: absolute;
+   margin-right: 250px;
+   margin-top: -160px;
+}
+
+
+.square-3{
+   background-color: black;
+   width: 150px;
+   height: 150px; 
+   position: absolute;
+   margin-right: -250px;
+   margin-top: 160px;
+}
+
+.square-4{
+    background-color: rgb(145, 145, 231);
+    width: 130px;
+    height: 70px; 
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 200px;
+ }
+
+
+ footer{
+    background-color: rgb(27, 27, 27);
+    height: 10vh;
+
+ }
+
+ /* footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  } */
+  
